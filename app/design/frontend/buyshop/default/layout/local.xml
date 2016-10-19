@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<layout version="0.1.0">
+    <default module="page">
+        <remove name="global_notices"/>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/bootstrap.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/etalage.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/megamenu.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/style.css</name>
+            </action>
+        </reference>
+    </default>
+</layout>
